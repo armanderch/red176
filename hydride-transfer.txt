@@ -1,4 +1,5 @@
 L-W1X* reaction energy of hydride transfer (298 K enthalpy in kJ/mol)
+That is : complex -> product
 E.g., H3B---OCO -> H2B-OCHO
 For MeX, hydride transfer corresponds to hydrogenolysis, producing MeH
 E.g., H3B---FMe -> H2BF + MeH
