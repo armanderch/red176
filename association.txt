@@ -1,4 +1,5 @@
 L-W1X* reaction energy of association (298 K enthalpy in kJ/mol)
+That is: hydride + substrate -> complex
 E.g., BH3 + CO2 -> H3B---OCO
 
 species	CO2	HCO2H	CH2NH	CH2O	MeNH2	MeOH	MeF	MeCl
