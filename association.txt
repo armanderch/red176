@@ -2,6 +2,7 @@ L-W1X* reaction energy of association (298 K enthalpy in kJ/mol)
 That is: hydride + substrate -> complex
 E.g., BH3 + CO2 -> H3B---OCO
 
+Summary table:
 species	CO2	HCO2H	CH2NH	CH2O	MeNH2	MeOH	MeF	MeCl
 BH3	-4.7	-49.4	-131.9	-55.4	-140.7	-69.4	-17.4	-27.0
 AlH3	-20.4	-79.8	-117.0	-76.7	-128.9	-92.5	-50.4	-42.8
@@ -12,7 +13,97 @@ GaH2Me	-15.2	-49.9	-86.8	-49.0	-98.6	-59.7	-29.6	-48.8
 BH2Ph	-7.8	-24.9	-102.5	-29.2	-116.2	-47.5	-6.1	-8.3
 AlH2Ph	-22.9	-75.6	-113.3	-71.9	-127.6	-90.9	-44.7	-39.3
 GaH2Ph	-14.0	-49.2	-91.3	-50.6	-108.1	-66.0	-30.2	-48.7
-9BBN	-3.5	-21.0	-92.0	-24.2	-99.0	-38.0	-7.7	-8.9
+9-BBN	-3.5	-21.0	-92.0	-24.2	-99.0	-38.0	-7.7	-8.9
 DIBAL	-19.1	-72.8	-109.5	-69.0	-119.1	-87.2	-42.9	-37.6
 
 * https://github.com/armanderch/l-w1x
+
+Equation and energy for individual reactions:
+BH3 + CO2 -> H3B---OCO			-4.7
+BH3 + HCO2H -> H3B---OCHOH		-49.4
+BH3 + CH2NH -> H3B---NHCH2		-131.9
+BH3 + CH2O -> H3B---OCH2		-55.4
+BH3 + MeNH2 -> H3B---NH2Me		-140.7
+BH3 + MeOH -> H3B---OHMe		-69.4
+BH3 + MeF -> H3B---FMe			-17.4
+BH3 + MeCl -> H3B---ClMe		-27.0
+AlH3 + CO2 -> H3Al---OCO		-20.4
+AlH3 + HCO2H -> H3Al---OCHOH		-79.8
+AlH3 + CH2NH -> H3Al---NHCH2		-117.0
+AlH3 + CH2O -> H3Al---OCH2		-76.7
+AlH3 + MeNH2 -> H3Al---NH2Me		-128.9
+AlH3 + MeOH -> H3Al---OHMe		-92.5
+AlH3 + MeF -> H3Al---FMe		-50.4
+AlH3 + MeCl -> H3Al---ClMe		-42.8
+GaH3 + CO2 -> H3Ga---OCO		-14.2
+GaH3 + HCO2H -> H3Ga---OCHOH		-53.1
+GaH3 + CH2NH -> H3Ga---NHCH2		-93.4
+GaH3 + CH2O -> H3Ga---OCH2		-52.4
+GaH3 + MeNH2 -> H3Ga---NH2Me		-105.4
+GaH3 + MeOH -> H3Ga---OHMe		-63.4
+GaH3 + MeF -> H3Ga---FMe		-30.4
+GaH3 + MeCl -> H3Ga---ClMe		-51.1
+BH2Me + CO2 -> MeH2B---OCO		-3.4
+BH2Me + HCO2H -> MeH2B---OCHOH		-31.4
+BH2Me + CH2NH -> MeH2B---NHCH2		-105.7
+BH2Me + CH2O -> MeH2B---OCH2		-36.3
+BH2Me + MeNH2 -> MeH2B---NH2Me		-117.1
+BH2Me + MeOH -> MeH2B---OHMe		-51.4
+BH2Me + MeF -> MeH2B---FMe		-10.6
+BH2Me + MeCl -> MeH2B---ClMe		-13.8
+AlH2Me + CO2 -> MeH2Al---OCO		-19.7
+AlH2Me + HCO2H -> MeH2Al---OCHOH	-76.6
+AlH2Me + CH2NH -> MeH2Al---NHCH2	-112.2
+AlH2Me + CH2O -> MeH2Al---OCH2		-73.4
+AlH2Me + MeNH2 -> MeH2Al---NH2Me	-124.0
+AlH2Me + MeOH -> MeH2Al---OHMe		-89.2
+AlH2Me + MeF -> MeH2Al---FMe		-48.0
+AlH2Me + MeCl -> MeH2Al---ClMe		-40.4
+GaH2Me + CO2 -> MeH2Ga---OCO		-15.2
+GaH2Me + HCO2H -> MeH2Ga---OCHOH	-49.9
+GaH2Me + CH2NH -> MeH2Ga---NHCH2	-86.8
+GaH2Me + CH2O -> MeH2Ga---OCH2		-49.0
+GaH2Me + MeNH2 -> MeH2Ga---NH2Me	-98.6
+GaH2Me + MeOH -> MeH2Ga---OHMe		-59.7
+GaH2Me + MeF -> MeH2Ga---FMe		-29.6
+GaH2Me + MeCl -> MeH2Ga---ClMe		-48.8
+BH2Ph + CO2 -> PhH2B---OCO		-7.8
+BH2Ph + HCO2H -> PhH2B---OCHOH		-24.9
+BH2Ph + CH2NH -> PhH2B---NHCH2		-102.5
+BH2Ph + CH2O -> PhH2B---OCH2		-29.2
+BH2Ph + MeNH2 -> PhH2B---NH2Me		-116.2
+BH2Ph + MeOH -> PhH2B---OHMe		-47.5
+BH2Ph + MeF -> PhH2B---FMe		-6.1
+BH2Ph + MeCl -> PhH2B---ClMe		-8.3
+AlH2Ph + CO2 -> PhH2Al---OCO		-22.9
+AlH2Ph + HCO2H -> PhH2Al---OCHOH	-75.6
+AlH2Ph + CH2NH -> PhH2Al---NHCH2	-113.3
+AlH2Ph + CH2O -> PhH2Al---OCH2		-71.9
+AlH2Ph + MeNH2 -> PhH2Al---NH2Me	-127.6
+AlH2Ph + MeOH -> PhH2Al---OHMe		-90.9
+AlH2Ph + MeF -> PhH2Al---FMe		-44.7
+AlH2Ph + MeCl -> PhH2Al---ClMe		-39.3
+GaH2Ph + CO2 -> PhH2Ga---OCO		-14.0
+GaH2Ph + HCO2H -> PhH2Ga---OCHOH	-49.2
+GaH2Ph + CH2NH -> PhH2Ga---NHCH2	-91.3
+GaH2Ph + CH2O -> PhH2Ga---OCH2		-50.6
+GaH2Ph + MeNH2 -> PhH2Ga---NH2Me	-108.1
+GaH2Ph + MeOH -> PhH2Ga---OHMe		-66.0
+GaH2Ph + MeF -> PhH2Ga---FMe		-30.2
+GaH2Ph + MeCl -> PhH2Ga---ClMe		-48.7
+9-BBN + CO2 -> 9-BBN---OCO		-3.5
+9-BBN + HCO2H -> 9-BBN---OCHOH		-21.0
+9-BBN + CH2NH -> 9-BBN---NHCH2		-92.0
+9-BBN + CH2O -> 9-BBN---OCH2		-24.2
+9-BBN + MeNH2 -> 9-BBN---NH2Me		-99.0
+9-BBN + MeOH -> 9-BBN---OHMe		-38.0
+9-BBN + MeF -> 9-BBN---FMe		-7.7
+9-BBN + MeCl -> 9-BBN---ClMe		-8.9
+DIBAL + CO2 -> DIBAL---OCO		-19.1
+DIBAL + HCO2H -> DIBAL---OCHOH		-72.8
+DIBAL + CH2NH -> DIBAL---NHCH2		-109.5
+DIBAL + CH2O -> DIBAL---OCH2		-69.0
+DIBAL + MeNH2 -> DIBAL---NH2Me		-119.1
+DIBAL + MeOH -> DIBAL---OHMe		-87.2
+DIBAL + MeF -> DIBAL---FMe		-42.9
+DIBAL + MeCl -> DIBAL---ClMe		-37.6
