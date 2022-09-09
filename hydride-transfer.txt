@@ -1,9 +1,9 @@
-L-W1X* reaction energy of hydride transfer (298 K enthalpy in kJ/mol)
-That is : complex -> product
+L-W1X* reaction energy of hydride transfer (298 K enthalpy in kJ/mol)That is : complex -> product
 E.g., H3B---OCO -> H2B-OCHO
 For MeX, hydride transfer corresponds to hydrogenolysis, producing MeH
 E.g., H3B---FMe -> H2BF + MeH
 
+Summary table:
 species	CO2	HCO2H	CH2NH	CH2O	MeNH2	MeOH	MeF	MeCl
 BH3	-85.7	-103.1	-134.3	-185.5	-99.1	-182.2	-232.4	-146.1
 AlH3	-167.6	-70.8	-92.3	-152.9	-67.6	-159.6	-246.1	-198.6
@@ -18,3 +18,93 @@ GaH2Ph	-91.6	-21.5	-72.1	-107.9	-34.8	-105.3	-170.1	-172.1
 DIBAL	-172.2	-82.6	-97.1	-162.7	-75.1	-166.9	-259.9	-214.2
 
 * https://github.com/armanderch/l-w1x
+
+Equation and energy for individual reactions:
+H3B---OCO -> H2B–OCHO				-85.7
+H3B---OCHOH -> H2B–OCH2OH			-103.1
+H3B---NHCH2 -> H2B–NHCH3			-134.3
+H3B---OCH2 -> H2B–OCH3				-185.5
+H3B---NH2Me -> H2B–NH2 + MeH			-99.1
+H3B---OHMe -> H2B–OH + MeH			-182.2
+H3B---FMe -> H2B–F + MeH			-232.4
+H3B---ClMe -> H2B–Cl + MeH			-146.1
+H3Al---OCO -> H2Al–OCHO				-167.6
+H3Al---OCHOH -> H2Al–OCH2OH			-70.8
+H3Al---NHCH2 -> H2Al–NHCH3			-92.3
+H3Al---OCH2 -> H2Al–OCH3			-152.9
+H3Al---NH2Me -> H2Al–NH2 + MeH			-67.6
+H3Al---OHMe -> H2Al–OH + MeH			-159.6
+H3Al---FMe -> H2Al–F + MeH			-246.1
+H3Al---ClMe -> H2Al–Cl + MeH			-198.6
+H3Ga---OCO -> H2Ga–OCHO				-97.8
+H3Ga---OCHOH -> H2Ga–OCH2OH			-28.5
+H3Ga---NHCH2 -> H2Ga–NHCH3			-73.5
+H3Ga---OCH2 -> H2Ga–OCH3			-104.2
+H3Ga---NH2Me -> H2Ga–NH2 + MeH			-43.0
+H3Ga---OHMe -> H2Ga–OH + MeH			-112.8
+H3Ga---FMe -> H2Ga–F + MeH			-171.4
+H3Ga---ClMe -> H2Ga–Cl + MeH			-167.0
+MeH2B---OCO -> MeHB–OCHO			-91.5
+MeH2B---OCHOH -> MeHB–OCH2OH			-122.8
+MeH2B---NHCH2 -> MeHB–NHCH3			-152.5
+MeH2B---OCH2 -> MeHB–OCH3			-205.1
+MeH2B---NH2Me -> MeHB–NH2 + MeH			-115.7
+MeH2B---OHMe -> MeHB–OH + MeH			-199.4
+MeH2B---FMe -> MeHB–F + MeH			-246.0
+MeH2B---ClMe -> MeHB–Cl + MeH			-163.7
+MeH2Al---OCO -> MeHAl–OCHO			-171.5
+MeH2Al---OCHOH -> MeHAl–OCH2OH			-77.3
+MeH2Al---NHCH2 -> MeHAl–NHCH3			-96.9
+MeH2Al---OCH2 -> MeHAl–OCH3			-159.0
+MeH2Al---NH2Me -> MeHAl–NH2 + MeH		-72.8
+MeH2Al---OHMe -> MeHAl–OH + MeH			-166.6
+MeH2Al---FMe -> MeHAl–F + MeH			-253.4
+MeH2Al---ClMe -> MeHAl–Cl + MeH			-206.4
+MeH2Ga---OCO -> MeHGa–OCHO			-101.7
+MeH2Ga---OCHOH -> MeHGa–OCH2OH			-36.3
+MeH2Ga---NHCH2 -> MeHGa–NHCH3			-79.7
+MeH2Ga---OCH2 -> MeHGa–OCH3			-113.1
+MeH2Ga---NH2Me -> MeHGa–NH2 + MeH		-50.1
+MeH2Ga---OHMe -> MeHGa–OH + MeH			-121.0
+MeH2Ga---FMe -> MeHGa–F + MeH			-178.3
+MeH2Ga---ClMe -> MeHGa–Cl + MeH			-176.6
+PhH2B---OCO -> PhHB–OCHO			-81.6
+PhH2B---OCHOH -> PhHB–OCH2OH			-119.8
+PhH2B---NHCH2 -> PhHB–NHCH3			-146.3
+PhH2B---OCH2 -> PhHB–OCH3			-205.2
+PhH2B---NH2Me -> PhHB–NH2 + MeH			-105.9
+PhH2B---OHMe -> PhHB–OH + MeH			-192.8
+PhH2B---FMe -> PhHB–F + MeH			-242.6
+PhH2B---ClMe -> PhHB–Cl + MeH			-165.6
+PhH2Al---OCO -> PhHAl–OCHO			-160.3
+PhH2Al---OCHOH -> PhHAl–OCH2OH			-76.0
+PhH2Al---NHCH2 -> PhHAl–NHCH3			-90.6
+PhH2Al---OCH2 -> PhHAl–OCH3			-156.6
+PhH2Al---NH2Me -> PhHAl–NH2 + MeH		-64.2
+PhH2Al---OHMe -> PhHAl–OH + MeH			-158.7
+PhH2Al---FMe -> PhHAl–F + MeH			-252.3
+PhH2Al---ClMe -> PhHAl–Cl + MeH			-206.7
+PhH2Ga---OCO -> PhHGa–OCHO			-91.6
+PhH2Ga---OCHOH -> PhHGa–OCH2OH			-21.5
+PhH2Ga---NHCH2 -> PhHGa–NHCH3			-72.1
+PhH2Ga---OCH2 -> PhHGa–OCH3			-107.9
+PhH2Ga---NH2Me -> PhHGa–NH2 + MeH		-34.8
+PhH2Ga---OHMe -> PhHGa–OH + MeH			-105.3
+PhH2Ga---FMe -> PhHGa–F + MeH			-170.1
+PhH2Ga---ClMe -> PhHGa–Cl + MeH			-172.1
+9-BBN---OCO -> (9-BBN – H)–OCHO			-90.0
+9-BBN---OCHOH -> (9-BBN – H)–OCH2OH		-121.8
+9-BBN---NHCH2 -> (9-BBN – H)–NHCH3		-157.2
+9-BBN---OCH2 -> (9-BBN – H)–OCH3		-208.2
+9-BBN---NH2Me -> (9-BBN – H)–NH2 + MeH		-127.6
+9-BBN---OHMe -> (9-BBN – H)–OH + MeH		-208.3
+9-BBN---FMe -> (9-BBN – H)–F + MeH		-244.8
+9-BBN---ClMe -> (9-BBN – H)–Cl + MeH		-172.7
+DIBAL---OCO -> (9-DIBAL – H)–OCHO		-172.2
+DIBAL---OCHOH -> (9-DIBAL – H)–OCH2OH		-82.6
+DIBAL---NHCH2 -> (9-DIBAL – H)–NHCH3		-97.1
+DIBAL---OCH2 -> (9-DIBAL – H)–OCH3		-162.7
+DIBAL---NH2Me -> (9-DIBAL – H)–NH2 + MeH	-75.1
+DIBAL---OHMe -> (9-DIBAL – H)–OH + MeH		-166.9
+DIBAL---FMe -> (9-DIBAL – H)–F + MeH		-259.9
+DIBAL---ClMe -> (9-DIBAL – H)–Cl + MeH		-214.2
